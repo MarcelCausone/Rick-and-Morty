@@ -1,0 +1,63 @@
+
+
+
+/* Estilos para el formulario de inicio de sesión */
+.loginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* 100% del alto de la ventana */
+  background-color: #1f1f1f;
+  font-family: 'Roboto', sans-serif;
+}
+
+.loginForm {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 300px; /* Tamaño cuadrado */
+}
+
+/* Estilos para las etiquetas (labels) */
+.loginForm label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Estilos para los campos de entrada (inputs) */
+.loginForm input[type='text'],
+.loginForm input[type='password'] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 2px solid #00ff00;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* Estilos para los mensajes de error */
+.loginForm span {
+  color: #ff0000;
+  font-size: 12px;
+}
+
+/* Estilos para el botón "SUBMIT" */
+.loginForm button {
+  background-color: #00ff00;
+  color: #1f1f1f;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.loginForm button:hover {
+  background-color: #007700;
+}

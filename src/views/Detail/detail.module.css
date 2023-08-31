@@ -1,0 +1,33 @@
+.detailCard {
+    display: flex;
+    align-items: center;
+    background-color: #1f1f1f;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .characterImageContainer {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .characterImage {
+    width: 500px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: 500px; /* Ajusta el tamaño de la imagen según tus necesidades */
+    border: 10px solid #00ff00; /* Borde verde grueso */
+    border-radius: 50%; /* Para hacer la imagen redonda */
+  }
+  
+  .characterInfo {
+    flex: 2;
+    padding-left: 20px;
+  }
+  
+  /* Estilos para los detalles del personaje */
+  .characterInfo h2 {
+    font-size: 30px; /* Aumenta el tamaño de las letras */
+    margin: 18px 2; /* Agrega espacio entre las líneas */
+    font-family: 'Pacifico', cursive; /* Cambia la fuente a tu elección */
+  }
+  

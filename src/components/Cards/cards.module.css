@@ -1,0 +1,10 @@
+/* Estilo para el contenedor de las tarjetas (grid container) */
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Columnas flexibles */
+    gap: 16px; /* Espacio entre las tarjetas */
+    justify-content: center; /* Centrar las tarjetas horizontalmente */
+    max-width: 100%; /* Ancho máximo igual al ancho de la ventana del navegador */
+    overflow-x: hidden; /* Ocultar la barra de desplazamiento horizontal */
+  }
+  
